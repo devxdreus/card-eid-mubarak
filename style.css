@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* pallete
+#214730
+*/
+
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 24px;
+  background-color: #214730;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: wheat;
+  z-index: 9;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1.1em;
+}
+
+hr {
+  width: 700px;
+  margin: 10px auto;
+}
+
+p {
+  font-weight: 400;
+  font-size: .8em;
+}
+
+.star {
+  background-image: url(svg/Asset\ 3.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  background-image: url(svg/Asset\ 1.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mesjid {
+  background-image: url(svg/Asset\ 2.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 550px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
